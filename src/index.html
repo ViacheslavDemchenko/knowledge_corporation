@@ -39,11 +39,7 @@
 		<!-- header -->
 		<header class="header">
 
-			<div class="nav-mobile">
-				
-				<!-- <img class="nav-mobile__icon" src="img/nav-icon@1x.png" alt="Мобильное меню" title="Открыть мобильное меню" srcset="img/nav-icon@1x.png 1x, img/nav-icon@2x.png 2x" width="23" height="20"> -->
-
-			</div>
+			<div class="nav-mobile"></div>
 			
 			<div class="logo">
 				
@@ -83,38 +79,131 @@
 
 			<!-- container -->
 			<div class="container clearfix">
+
+				<!-- main-text -->
+				<section class="slider-text">
 			
-				<div class="block">Pretitle</div>
-				<div class="block">Title</div>
+					<ul class="bread-crumbs">
+						<li class="bread-crumbs__item"><a class="bread-crumbs__link" href="#">Головной раздел</a><span> /</span></li>
+						<li class="bread-crumbs__item"><a class="bread-crumbs__link" href="#">Предшествующий странице раздел</a></li>
+					</ul>
+					<h1 class="slider-text__title">Кафедра экономики и инвестиций</h1>
 
-				<!-- row -->
-				<div class="row">
-					
-					<!-- col-xl-6 -->
-					<div class="col-sm-12 col-xl-6">
-						<div class="block">Текст</div>
+					<!-- row -->
+					<div class="row">
+						
+						<!-- col-xl-6 -->
+						<div class="col-sm-12 col-xl-6">
+							<p class="text-block__paragraph">24/36. Крупный текст под основным заголовком. Кодекс определяет порядок действий работников в ситуации конфликта интересов, объявляет нетерпимость к коррупционному поведению, закрепляет принципы заботы об экологии, запрета на дискриминацию.</p>
+
+							<p class="text-block__paragraph">Отступ абзаца равен пустой строке. Положения кодекса обязательны для исполнения работниками компании (в том числе всеми членами Правления, членами Совета директоров, являющимися работниками ПАО «Газпром») и подконтрольных компании юридических лиц.</p>
+						</div>
+						<!-- /.col-xl-6 -->
+
+						<!-- col-xl-5 -->
+						<div class="col-sm-12 col-xl-5">
+
+							<!-- slider-wrap -->
+							<div class="slider-wrap">
+								
+								<div class="slide slide-1">
+									
+									<picture>
+										<source media="(min-width: 320px)" srcset="img/slide-1_mobile@1x.jpg 1x, img/slide-1_mobile@2x.jpg 2x">
+                            			<source media="(min-width: 810px)" srcset="img/slide-1_tablet@1x.jpg 1x, img/slide-1_tablet@2x.jpg 2x">
+                            			<source media="(min-width: 945px)" srcset="img/slide-1_desktop@1x.jpg 1x, img/slide-1_desktop@2x.jpg 2x">
+                            			<img src="img/slide-1_mobile@1x.jpg" class="products__illustration" alt="Человек с лазерными очками" title="Человек с лазерными очками" width="320" height="300">
+                        			</picture>
+									
+									<div class="slide-text">
+	                        			<h3 class="slide__title">
+		                        			<p>Применение технологий</p>
+		                        		    <p>искусственного интеллекта</p>
+		                        		    <p>в нефтегазовой области</p>
+	                        			</h3>
+	                        			<p class="slide__desc">Вы узнаете, что такое машинное обучение, как применить его в работе и где учиться, чтобы начать заниматься такими проектами</p>
+									</div>
+								</div>
+
+								<div class="slide slide-2">
+									
+									<picture>
+										<source media="(min-width: 320px)" srcset="img/slide-1_mobile@1x.jpg 1x, img/slide-1_mobile@2x.jpg 2x">
+                            			<source media="(min-width: 810px)" srcset="img/slide-1_tablet@1x.jpg 1x, img/slide-1_tablet@2x.jpg 2x">
+                            			<source media="(min-width: 945px)" srcset="img/slide-1_desktop@1x.jpg 1x, img/slide-1_desktop@2x.jpg 2x">
+                            			<img src="img/slide-1_mobile@1x.jpg" class="products__illustration" alt="Человек с лазерными очками" title="Человек с лазерными очками" width="320" height="300">
+                        			</picture>
+
+                        			<div class="slide-text">
+	                        			<h3 class="slide__title">
+		                        			<p>Применение технологий</p>
+		                        		    <p>искусственного интеллекта</p>
+		                        		    <p>в нефтегазовой области</p>
+	                        			</h3>
+	                        			<p class="slide__desc">Вы узнаете, что такое машинное обучение, как применить его в работе и где учиться, чтобы начать заниматься такими проектами</p>
+									</div>
+								</div>
+									
+								<!-- slider-controls -->
+								<div class="slider-controls">
+							        <label class="slider-controls__item slider-controls__item--active" for="slide-1" aria-label="Кнопка переключения на второй слайдер"></label>
+							        <label class="slider-controls__item" for="slide-2" aria-label="Кнопка переключения на первый слайдер"></label>
+							        <input class="visually-hidden" type="radio" id="slide-1" name="toggle" checked>
+            						<input class="visually-hidden" type="radio" id="slide-2" name="toggle">
+        						</div>
+								<!-- /.slider-controls -->
+							</div>
+							<!-- /.slider-wrap -->
+
+						</div>
+						<!-- /.col-xl-5 -->
+
 					</div>
-					<!-- /.col-xl-6 -->
+					<!-- /.row -->
 
-					<!-- col-xl-5 -->
-					<div class="col-sm-12 col-xl-5">
-						<div class="block">Слайдер</div>
+					<div class="row">
+						
+						<!-- col-xl-6 -->
+						<div class="col-xl-6">
+
+							<!-- tags -->
+							<ul class="tags-list">
+								
+								<li class="tags-list__item"><a class="tags-list__link" href="#">Машинное обучение</a></li>
+								<li class="tags-list__item"><a class="tags-list__link" href="#">IBM</a></li>
+								<li class="tags-list__item"><a class="tags-list__link" href="#">AI</a></li>
+								<li class="tags-list__item"><a class="tags-list__link" href="#">Бухгалтерский учет и аудит</a></li>
+
+							</ul>
+							<!-- /.tags -->
+							
+							<div class="classifiers">
+								<h4 class="classifiers__title">Классификаторы</h4>
+								<ul class="classifiers-list">
+									<li class="classifiers-list__item">Гидролиз в ходе реакций катаболизма</li>
+									<li class="classifiers-list__item">Авиационная техника по горюче-смазочным</li>
+									<li class="classifiers-list__item">материалам</li>
+								</ul>
+							</div>
+
+							<div class="competencies">
+								<h4 class="competencies__title">Компетенции</h4>
+								<ul class="competencies-list">
+									<li class="competencies-list__item">Изучение английского языка</li>
+									<li class="competencies-list__item">Новый тест</li>
+									<li class="competencies-list__item">Формирование стоимости строительства</li>
+									<li class="competencies-list__item">скважин и ЗБС</li>
+									<li class="competencies-list__item">Геонавигация горизонтальных скважин</li>
+								</ul>
+							</div>
+							<p class="edit">Редактировать</p>
+						</div>
+						<!-- /.col-xl-5 -->
+
 					</div>
-					<!-- /.col-xl-5 -->
-
-				</div>
-				<!-- /.row -->
-
-				<div class="row">
-					
-					<!-- col-xl-6 -->
-					<div class="col-xl-6">
-						<div class="block">Посттекст</div>
-					</div>
-					<!-- /.col-xl-5 -->
-
-				</div>
-				<!-- /.row -->
+					<!-- /.row -->
+				</section>
+				<!-- /.main-text -->
 
 				<div class="block">Title</div>
 				<div class="block">Selection</div>
